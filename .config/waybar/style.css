@@ -1,0 +1,28 @@
+@import url("/home/vigz/.cache/wal/colors-waybar.css");
+
+window#waybar {
+	background: transparent;
+	font-size: 16px;
+}
+
+window.eDP-1 * {
+	font-size: 14px;
+}
+
+.modules-left {
+	margin: 0px 0px 0px 15px;
+}
+
+.modules-right {
+	margin: 0px 15px 0px 0px;
+}
+
+.modules-right * {
+	padding: 0px 10px 0px 10px;
+}
+
+#battery.plugged {
+	color: #26A65B;
+}
+
+
