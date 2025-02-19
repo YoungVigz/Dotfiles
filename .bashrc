@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
 eval "$(starship init bash)"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
